@@ -3,10 +3,11 @@ import { motion, scale } from "motion/react";
 const Header = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-surface-container/70 backdrop-blur-xl border-b border-outline-variant/10">
-      <div className="flex items-center justify-around   px-8 py-4">
+      <div className="flex items-center justify-between  px-6 py-4 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
           className="text-xl font-headline tracking-tight font-black"
         >
           SNEHITH.DEV
