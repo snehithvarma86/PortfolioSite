@@ -63,7 +63,7 @@ const Contact = () => {
       setSucess(true);
       setApiError("");
       setErrors({});
-    } catch () {
+    } catch (error) {
       setApiError("Something went wrong. Please try again.");
     }
   };
