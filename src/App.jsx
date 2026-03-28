@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main className="pt-32 pb-20 px-6 max-w-7xl mx-auto space-y-32">
         <Hero />
         <About />
+        <Projects />
       </main>
     </div>
   );
