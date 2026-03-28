@@ -11,7 +11,7 @@ const Contact = () => {
 
   const [errors, setErrors] = useState({});
   const [apiError, setApiError] = useState("");
-  const [success, setSucess] = useState(true);
+  const [success, setSucess] = useState(false);
 
   const validate = () => {
     const newErrors = {};
