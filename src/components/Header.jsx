@@ -1,6 +1,13 @@
 import { motion, scale } from "motion/react";
 
 const Header = () => {
+  const links = [
+    { linkName: "About", url: "#about" },
+    { linkName: "Projects", url: "#work" },
+    { linkName: "Experience", url: "#experience" },
+    { linkName: "Contact", url: "#contact" },
+  ];
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-surface-container/70 backdrop-blur-xl border-b border-outline-variant/10">
       <div className="flex items-center justify-between  px-6 py-4 max-w-7xl mx-auto">
@@ -13,30 +20,17 @@ const Header = () => {
           SNEHITH.DEV
         </motion.div>
         <div className="hidden md:flex gap-8 items-center font-headline font-bold text-4">
-          <a
-            href="#work"
-            className="text-white hover:text-primary transition-colors"
-          >
-            Work{" "}
-          </a>
-          <a
-            href=""
-            className="text-white hover:text-primary transition-colors"
-          >
-            Tech
-          </a>
-          <a
-            href=""
-            className="text-white hover:text-primary transition-colors"
-          >
-            Experience
-          </a>
-          <a
-            href=""
-            className="text-white hover:text-primary transition-colors"
-          >
-            Contact
-          </a>
+          {links.map((link, ind) => {
+            return (
+              <a
+                href={link.url}
+                className="text-white hover:text-primary transition-colors"
+                key={ind}
+              >
+                {link.linkName}
+              </a>
+            );
+          })}
         </div>
         <motion.button
           whileHover={{ scale: 1.1 }}

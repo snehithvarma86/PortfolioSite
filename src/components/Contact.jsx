@@ -89,7 +89,7 @@ const Contact = () => {
               <Mail size={20} />
             </div>
             <span className="text-on-surface font-bold">
-              sai.snehith@example.com
+              snehithvarma.dev@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-4">

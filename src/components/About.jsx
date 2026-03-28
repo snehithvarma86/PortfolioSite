@@ -3,7 +3,7 @@ import { Code, Cpu, Database, Layers, Layout, Terminal } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="tech" className="grid grid-cols-1 md:grid-cols-12 gap-6">
+    <section id="about" className="grid grid-cols-1 md:grid-cols-12 gap-6">
       <motion.div
         whileHover={{ y: -5 }}
         className="md:col-span-8 glass-card rounded-2xl p-8 flex flex-col justify-between hover:bg-surface-bright transition-all duration-300"
