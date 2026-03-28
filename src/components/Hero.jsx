@@ -4,8 +4,8 @@ import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="grid">
-      <div>
+    <section className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+      <div className="md:col-span-8 space-y-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ const Hero = () => {
       <motion.div
         initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
         animate={{ opacity: 1, scale: 1, rotate: 3 }}
-        className="relative flex justify-center"
+        className="md:col-span-4 relative flex justify-center"
         transition={{ duration: 1 }}
       >
         <div className="w-72 h-72 rounded-3xl overflow-hidden glass-card p-4 hover:rotate-0 transition-transform duration-1000">
@@ -95,10 +95,10 @@ const Hero = () => {
             </defs>
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-            <span className="text-xs font-bold font-headline text-secondary">
-              3+ YRS
+            <span className="text-[16px] font-bold font-headline text-secondary">
+              3.5+ Years
             </span>
-            <span className="text-[8px] text-on-surface-variant font-bold uppercase">
+            <span className="text-[12px] text-on-surface-variant font-bold uppercase">
               Exp
             </span>
           </div>
