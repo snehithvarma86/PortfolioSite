@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Code2, ExternalLink } from "lucide-react";
+import apiAccio2 from "../assets/api-accio-2.png";
 
 const Projects = () => {
   const ProjectDetails = [
@@ -10,7 +11,7 @@ const Projects = () => {
       tags: ["React", "Gemini API", "Supabse", "Tailwind"],
       link: "https://api-accio.vercel.app/",
       gitLink: "https://github.com/snehithvarma86/API-Accio",
-      img: "/src/assets/api-accio-2.png",
+      img: apiAccio2,
     },
     {
       title: "URL Shortener",
