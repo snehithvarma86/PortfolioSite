@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { Code2, ExternalLink } from "lucide-react";
 import apiAccio2 from "../assets/api-accio-2.png";
+import linkshortner from "../assets/link-shortner.png";
 
 const Projects = () => {
   const ProjectDetails = [
@@ -19,7 +20,7 @@ const Projects = () => {
       tags: ["React", "Express", "PostgreSQL", "JWT"],
       link: "https://link-shortner-frontend-murex.vercel.app/",
       gitLink: "https://github.com/snehithvarma86/LinkShortner-Frontend",
-      img: "/src/assets/link-shortner.png",
+      img: linkshortner,
     },
   ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Download } from "lucide-react";
+import snehith from "../assets/snehith.jpeg";
 
 const Hero = () => {
   return (
@@ -54,7 +55,7 @@ const Hero = () => {
       >
         <div className="w-72 h-72 rounded-3xl overflow-hidden glass-card p-4 hover:rotate-0 transition-transform duration-1000">
           <img
-            src="/src/assets/snehith.jpeg"
+            src={snehith}
             alt="Sai Snehith Portfolio"
             className="w-full h-full object-cover rounded-2xl"
             referrerPolicy="no-referrer"
