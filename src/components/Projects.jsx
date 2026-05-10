@@ -10,7 +10,7 @@ const Projects = () => {
       title: "API Accio",
       desc: "A Full-stack SaaS tool that converts natural language prompts into JSON data and generate  API endpoints using Gen AI",
       tags: ["NextJS", "Gemini API", "Supabse", "Tailwind"],
-      link: "https://api-accio-v2.vercel.app/",
+      link: "https://mockapi.snehithvarma.site/",
       gitLink: "https://github.com/snehithvarma86/api-accio-v2",
       img: apiAccio2,
     },
